@@ -1,10 +1,3 @@
-//
-//  sportAppApp.swift
-//  sportApp
-//
-//  Created by Felipe Rivera on 10/03/25.
-//
-
 import SwiftUI
 
 @main
