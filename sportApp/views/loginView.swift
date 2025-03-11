@@ -40,6 +40,9 @@ public struct loginView: View {
                 .fontWeight(.bold)
                 .foregroundColor(Color(hex: "007AFF"))
                 .underline()
+                .onTapGesture {
+                    print("Ir a registro por correo")
+                }
             Spacer()
         }
         .ignoresSafeArea()
