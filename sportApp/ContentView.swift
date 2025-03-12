@@ -3,7 +3,9 @@ import SwiftUI
 struct ContentView: View {
     @State private var test = ""
     var body: some View {
-        loginView()
+        NavigationStack {
+            loginView()
+        }
     }
 }
 

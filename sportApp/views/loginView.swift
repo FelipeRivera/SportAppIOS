@@ -3,6 +3,7 @@ import SwiftUI
 public struct loginView: View {
     @State private var user = ""
     @State private var password = ""
+    @State private var shouldNavigate = false
     
     public var body: some View {
         VStack {
@@ -23,7 +24,13 @@ public struct loginView: View {
             CustomButton(title: "Iniciar sesión",
                          isActive: !user.isEmpty && !password.isEmpty) {
                 print("Iniciar session")
+                shouldNavigate = true
             }.padding()
+            
+            NavigationLink(destination: MenuView(), isActive: $shouldNavigate) {
+                            EmptyView()
+                        }
+            
             SocialButton(title: "Ingresar con Google",
                          imageName: "google") {
                 print("Iniciar session con google")

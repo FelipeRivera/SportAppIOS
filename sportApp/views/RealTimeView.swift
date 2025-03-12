@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct RealTimeView: View {
+    @State private var shouldShowStartRutine: Bool = false
     var body: some View {
         VStack {
             HeaderComponent()
@@ -18,6 +19,7 @@ struct RealTimeView: View {
             CustomCircularButton(title: "Empezar",
                                  isActive: true) {
                 print("Ir a empezar rutina")
+                shouldShowStartRutine = true
             }.padding()
                 .padding(.top, 54)
             CustomButton(title: "Volver", isActive: true) {
@@ -27,6 +29,9 @@ struct RealTimeView: View {
             .padding(.horizontal)
             .padding(.top, 100)
             Spacer()
+            NavigationLink(destination: RoundView(), isActive: $shouldShowStartRutine) {
+                EmptyView()
+            }
         }.ignoresSafeArea()
     }
 }

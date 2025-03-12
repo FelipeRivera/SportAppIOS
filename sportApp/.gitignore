@@ -22,6 +22,9 @@ xcuserdata/
 xcdebugger/
 profile
 *.xccrashpoint
+*sportApp.xcodeproj
+sportApp.xcodeproj
+sportApp.xcodeproj/
 
 # CocoaPods
 Pods/

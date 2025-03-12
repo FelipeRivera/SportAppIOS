@@ -5,15 +5,16 @@ public struct HeaderComponent: View {
         ZStack{
             Image("header")
                 .resizable()
-                .imageScale(.small)
+                .imageScale(.large)
                 .frame(width: .infinity,
-                       height: 65)
+                       height: 100)
                 .padding(.horizontal, 2)
             HStack {
                 Text("SportApp")
                     .font(.caption)
                     .fontWeight(.bold)
                     .padding(.leading, 28)
+                    .padding(.top, 80)
                 Spacer()
                 Image("user")
                     .resizable()
@@ -21,6 +22,7 @@ public struct HeaderComponent: View {
                            height: 28)
                     .scaledToFit()
                     .padding(.trailing, 50)
+                    .padding(.top, 80)
                     .onTapGesture {
                         print("Log out")
                     }

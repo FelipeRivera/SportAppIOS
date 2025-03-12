@@ -18,15 +18,17 @@ struct SummaryView: View {
                 .padding(.top, 34)
             Text("La última vez que realizaste este entrenamiento, lograste 20 repeticiones en 1 minuto y 30 segundos.").font(.caption)
                 .fontWeight(.bold)
+                .lineLimit(3)
                 .multilineTextAlignment(.center)
                 .frame(maxWidth: .infinity, alignment: .center)
+                .frame(height: 50)
                 .padding()
                 .padding(.horizontal, 8)
                 .padding(.top, 34)
             Image("bench").resizable()
                 .frame(width: 158, height: 158)
                 .padding()
-                .padding(.top, 34)
+                .padding(.top, 24)
             CustomButton(title: "Volver", isActive: true) {
                 print("Ir atras")
             }
