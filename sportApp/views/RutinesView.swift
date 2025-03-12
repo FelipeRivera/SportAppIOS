@@ -34,7 +34,7 @@ public struct RutinesView: View {
                 print("Volver a menú")
             }
             .padding()
-            .padding(.bottom, 50)
+            .padding(.bottom, 38)
         }
         .ignoresSafeArea()
     }

@@ -8,9 +8,11 @@ struct CustomButton: View {
     var body: some View {
         Button(action: action) {
             Text(title)
+                .font(.title3)
+                .fontWeight(.semibold)
                 .foregroundColor(.white)
                 .frame(maxWidth: .infinity,
-                       minHeight: 50)
+                       minHeight: 58)
                 .background(Color(hex: "007AFF"))
                 .cornerRadius(15)
                 .shadow(color: Color.gray.opacity(0.5), radius: 4, x: 0, y: 4)

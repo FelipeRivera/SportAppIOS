@@ -9,7 +9,7 @@ struct CustomCircularButton: View {
         Button(action: action) {
             Text(title)
                 .foregroundColor(.white)
-                .frame(width: 60, height: 60)
+                .frame(width: 173, height: 173)
                 .background(Color(hex: "007AFF"))
                 .clipShape(Circle())
                 .shadow(color: Color.gray.opacity(0.5), radius: 4, x: 0, y: 4)
