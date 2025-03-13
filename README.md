@@ -68,3 +68,18 @@ cd SportAppIOS
 
 - **Previews:**  
   Cada pantalla y cada componente cuenta con su respectivo preview dentro del proyecto, facilitando la visualización y verificación de la interfaz.
+
+  #### Vistas
+  Login
+  <img width="1135" alt="Screenshot 2025-03-13 at 12 52 06 AM" src="https://github.com/user-attachments/assets/09dc6db9-7492-4883-8919-2a107776edaa" />
+  Menu
+  <img width="1086" alt="Screenshot 2025-03-13 at 12 52 30 AM" src="https://github.com/user-attachments/assets/94ae3557-9a19-4f33-b93b-7a87d4e509f5" />
+  RealTime
+  <img width="1089" alt="Screenshot 2025-03-13 at 12 52 55 AM" src="https://github.com/user-attachments/assets/c0565620-2307-4f8c-ac99-e4383cd535eb" />
+  Round
+  <img width="1077" alt="Screenshot 2025-03-13 at 12 53 16 AM" src="https://github.com/user-attachments/assets/0b52b46a-59fe-41fb-ad50-29882602954c" />
+  Rutines
+  <img width="1084" alt="Screenshot 2025-03-13 at 12 53 36 AM" src="https://github.com/user-attachments/assets/fc01dfc7-fc83-4a42-871e-ce13124cbc34" />
+  Summary
+  <img width="1083" alt="Screenshot 2025-03-13 at 12 54 00 AM" src="https://github.com/user-attachments/assets/0f9d517f-7118-4040-b06d-18353d97419a" />
+
